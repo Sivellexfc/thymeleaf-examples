@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch Case</title>
+    <link th:href="@{/cs/main.css}" rel="stylesheet">
+</head>
+<body>
+<h2 th:text="${user.name}"></h2>
+<h2>You are loggın as
+    <strong th:if="${user.role} == ADMIN">ADMIN</strong>
+    <strong th:if="${user.role} == STANDART">STANDART</strong>
+</h2>
+
+</body>
+</html>
