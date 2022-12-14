@@ -1,4 +1,4 @@
-package thymeleaf.thymeleaf;
+package org.example;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
